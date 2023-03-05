@@ -1,0 +1,23 @@
+{
+    "name": "paulfitz/daff-php",
+    "description": "align and compare tables",
+    "homepage": "http://github.com/paulfitz/daff",
+    "keywords": ["php","csv","diff","patch"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Fitzpatrick",
+            "email": "paulfitz@alum.mit.edu"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": ["php_bin/lib/php/Boot.php"]
+    }
+}
