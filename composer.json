@@ -18,6 +18,9 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "files": ["php_bin/lib/php/Boot.php"]
+        "files": ["php_bin/lib/php/Boot.php"],
+        "psr-4": {
+            "": "php_bin/lib"
+        }
     }
 }
